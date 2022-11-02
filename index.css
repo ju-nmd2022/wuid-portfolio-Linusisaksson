@@ -1,0 +1,109 @@
+body {
+    background-color: #ebb998;
+    
+}
+
+
+h1 {
+    background-color: #e0a075;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introduction {
+    columns: 2;
+    background-color: #e3c5b1;
+    font-family: futura;
+    width: 50rem;
+    margin-left: 30rem;
+}
+
+.jkpglink {
+    background-color: #e3c5b1;
+    font-family: futura;
+    width: 20rem;
+    margin-left: 40rem;
+    margin-right: 37rem;
+    color: black;
+    text-decoration: none;
+}
+
+#imagelist {
+    background-color: #e3c5b1;
+    float: left;
+    margin-top: -5rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.linusbild {
+    max-width: 50%;
+    max-height: auto;
+    float: left;
+
+}
+img {
+    max-width: 20rem;
+    max-height: auto;
+   
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+h3 {
+    margin-left: 22rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10rem;
+}
+
+ul {
+    margin-left: 20rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e3c5b1;
+    width: 6rem;
+    font-size: 16pt;
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted;
+}
+.flexcontainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+height: 350px;
+width: 1100px;
+align-content: space-between;
+
+border-width: 3px;
+border-style: solid;
+border-color: black;
+/* border is temporary to easier see the flexbox */
+
+margin-left: 15rem;
+margin-top: 5rem;
+
+}
+
+.imgtext{
+width: 320px;
+justify-content: center;
+background-color: #e3c5b1;
+height: 120px;
+padding-left: 0.5rem;
+padding-left: 0.5rem;
+}
+
+.firstimg{
+    padding: 0.5rem;
+}
