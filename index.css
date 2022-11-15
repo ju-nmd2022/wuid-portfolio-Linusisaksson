@@ -3,14 +3,28 @@ body {
     
 }
 
+#navigationbar {
+    text-decoration: none;
+    position: fixed top;
+    background-color: #e3c5b1;
+    text-align: center;  
+}
+
+.navlink {
+text-decoration: none;
+font-family: futura;
+color: #ffffff;
+padding-left: 5%;
+padding-right: 5%;
+text-align: center;
+}
 
 h1 {
     background-color: #e0a075;
     color: #ffffff;
     text-align: center;
-    display: block;
+    /* display: block; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .introduction {
@@ -21,15 +35,6 @@ h1 {
     margin-left: 30rem;
 }
 
-.jkpglink {
-    background-color: #e3c5b1;
-    font-family: futura;
-    width: 20rem;
-    margin-left: 40rem;
-    margin-right: 37rem;
-    color: black;
-    text-decoration: none;
-}
 
 #imagelist {
     background-color: #e3c5b1;
@@ -50,7 +55,7 @@ h1 {
 img {
     max-width: 20rem;
     max-height: auto;
-   
+    align-items: center;
 }
 
 h2{
@@ -75,6 +80,7 @@ ul {
     border-width: 2px;
     border-style: dotted;
 }
+
 .flexcontainer{
 display: flex;
 flex-direction: row;
@@ -106,4 +112,40 @@ padding-left: 0.5rem;
 
 .firstimg{
     padding: 0.5rem;
+}
+
+.catalogcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    align-items: center;
+}
+
+section {
+    background-color:#e3c5b1;
+    border: solid 1px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectiontext {
+    text-align: center;
+    color: #ffffff;
+    font-family: futura;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+.sectionimage {
+    /* padding-left: 2rem; */
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.introduction2 {
+    font-family: futura;
+    text-align: center;
+    color: #ffffff;
+    min-width: 300px;
 }
